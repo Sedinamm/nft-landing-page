@@ -4,15 +4,20 @@ import assets from './assets';
 const App = () => {
   return (
     <>
-      <SectionWrapper
-      title ="Your own store of Cool NFTs.
-      Start Sellings & Growning."
-      description = "Buy, Store, collect NFTs, exchange and earn crypto.Join 20+ Million people using ProNef Marketplace"
-
-      ShowBtn
-      mockupImg={assets.homeHero}
-      banner="banner"
+            <SectionWrapper 
+        title="You own store of Nifty NFTs. Start Selling & Growing"
+        description="Buy, store, collect NFTS, exchange & earn crypto. Join 25+ million people using ProNef Marketplace."
+        showBtn
+        mockupImg={assets.homeHero}
+        banner="banner"
       />
+ <SectionWrapper 
+        title="Smart User Interface Marketplace"
+        description="Experience a buttery UI of ProNef NFT Marketplace. Smooth constant colors of a fluent UI design."
+        mockupImg={assets.homeCards}
+        reverse
+      />
+      <Features />
     </>
   );
 };
