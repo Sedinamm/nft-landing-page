@@ -1,6 +1,8 @@
 import { Download, Features, SectionWrapper } from "./components";
 import assets from './assets';
 
+import styles from "./styles/Global";
+
 const App = () => {
   return (
     <>
@@ -18,6 +20,26 @@ const App = () => {
         reverse
       />
       <Features />
+
+      <SectionWrapper 
+        title="Deployment"
+        description="Pronef was built using expo which runs natively on all mobile devices"
+        mockupImg={assets.feature}
+        reverse
+      />
+ <SectionWrapper 
+        title="Creative way to showcase the store"
+        description="The app contains two screens. The first screen lists all NFTs while the second one shows the details of a specific NFT"
+        mockupImg={assets.mockup}
+        banner="banner02"
+      />
+      <Download />
+
+      <div className="px-4 py-2 justify-center items-center bg-primary flex-col text-center banner04">
+        <p className={`${styles.pText} ${styles.whiteText}`}>Made by {" "}
+        <span className="bold">Gabriel Sedinam</span>
+        </p>
+      </div>
     </>
   );
 };
