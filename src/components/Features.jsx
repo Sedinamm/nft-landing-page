@@ -28,8 +28,8 @@ const Features = () => {
             className={`${styles.pText}
           ${styles.whiteText}`}
           >
-            Pronef has been developed using a cross-platform technology,
-            React-Native.
+            NFTbiz was developed using a cross-platform technology,
+            React-Native, with the help of Javascript
           </p>
         </div>
 
