@@ -15,7 +15,7 @@ const App = () => {
       />
  <SectionWrapper 
         title="Exceptional User Interface Marketplace"
-        description="Experience a buttery UI of ProNef NFT Marketplace. Smooth constant colors of a fluent UI design."
+        description="Experience a buttery UI of NFTbiz NFT Marketplace. Smooth constant colors of a fluent UI design."
         mockupImg={assets.homeCards}
         reverse
       />
@@ -23,7 +23,7 @@ const App = () => {
 
       <SectionWrapper 
         title="Deployment"
-        description="Pronef was built using expo which runs natively on all mobile devices"
+        description="NFTbiz was built using expo which runs natively on all mobile devices"
         mockupImg={assets.feature}
         reverse
       />
