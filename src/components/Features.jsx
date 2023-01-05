@@ -22,7 +22,7 @@ const Features = () => {
             className={`${styles.h1Text}
           ${styles.whiteText}`}
           >
-            Technologies
+            Languages
           </h1>
           <p
             className={`${styles.pText}
