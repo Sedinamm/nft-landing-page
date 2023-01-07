@@ -23,7 +23,7 @@ const App = () => {
 
       <SectionWrapper 
         title="Deployment"
-        description="NFTbiz was built using expo which runs natively on all mobile devices"
+        description="NFTbiz was built using expo which runs natively on both android and ios devices"
         mockupImg={assets.feature}
         reverse
       />
