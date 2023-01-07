@@ -15,7 +15,7 @@ const App = () => {
       />
  <SectionWrapper 
         title="Exceptional User Interface Marketplace"
-        description="Experience a beautiful and creative UI of NFTbiz NFT Marketplace. Smooth constant colors of a beautiful UI design."
+        description="Experience a beautiful and creative UI of NFTbiz Marketplace. Smooth constant colors of a beautiful UI design."
         mockupImg={assets.homeCards}
         reverse
       />
