@@ -28,7 +28,7 @@ const App = () => {
         reverse
       />
  <SectionWrapper 
-        title="Creative Way to Showcase Your Store"
+        title="Creative Way to Showcase Your NFT Store"
         description="The app contains two screens. The first screen lists all NFTs while the second one shows the details of a specific NFT"
         mockupImg={assets.mockup}
         banner="banner02"
