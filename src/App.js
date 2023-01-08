@@ -8,7 +8,7 @@ const App = () => {
     <>
             <SectionWrapper 
         title="Your own personal store of amazing NFTs. Start Selling, Buying & Growing"
-        description="Buy, store, collect NFTS, exchange & earn crypto. Join 30+ million people using NFTbiz Marketplace."
+        description="Buy, store, collect NFTS, exchange & earn crypto. Join 50+ million people using NFTbiz Marketplace."
         showBtn
         mockupImg={assets.homeHero}
         banner="banner"
